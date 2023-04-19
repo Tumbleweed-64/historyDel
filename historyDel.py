@@ -17,3 +17,6 @@ elif osType.lower() == "linux":
     historyPath = "/home/" + userName + "/.config/google-chrome/Default"
     os.remove(historyPath)
     print("History deleted. Tool made by Tumbleweed-64 on GitHub.")
+elif osType.lower() == "chromeos":
+    os.remove("/home/chronos")
+    print("History deleted. Tool made by Tumbleweed-64 on GitHub.")
