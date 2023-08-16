@@ -14,3 +14,7 @@ I've made this history deletion tool that currently has support for Linux, MacOS
 
 ChromeOS history deletion is finally here! This was my original intention, but ChromeOS is good at hiding things (app files, paths, everything useful in development).  
 However, a look at the official Chromium docs told me that the path for the history file was at <code>/home/chronos</code>. I've added this option into the current version.
+
+# Howto
+
+I wanted this to be able to run with Techsmart, as this is what my school has us use in the Python class, but you can't run <code>os.remove</code> on it, so use https://onlinegdb.com (switch it to Python 3).
