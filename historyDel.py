@@ -1,5 +1,5 @@
 import os
-osType = input("Before we start, what OS are you using? (macos, windows, linux")
+osType = input("Before we start, what OS are you using? (macos, windows, linux, chromeos")
 userName = ""
 historyPath = ""
 if osType.lower() == "windows":
